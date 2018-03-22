@@ -13,7 +13,6 @@ import java.util.Arrays;
  */
 
 //使用App的那个启动方式 这里注释掉
-
 @SpringBootApplication
 public class Application {
 
