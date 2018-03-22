@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="FreeMarker_main" target="1.8" />
+      <module name="FreeMarker_test" target="1.8" />
+      <module name="SpringBoot-FreeMarker_main" target="1.8" />
+      <module name="SpringBoot-FreeMarker_test" target="1.8" />
       <module name="springboot_main" target="1.8" />
       <module name="SpringBoot_main" target="1.8" />
       <module name="SpringBoot_test" target="1.8" />

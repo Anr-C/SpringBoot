@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FreeMarker.iml" filepath="$PROJECT_DIR$/.idea/modules/FreeMarker.iml" group="FreeMarker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FreeMarker/FreeMarker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FreeMarker/FreeMarker_main.iml" group="FreeMarker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FreeMarker/FreeMarker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FreeMarker/FreeMarker_test.iml" group="FreeMarker" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot_main.iml" group="SpringBoot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot_test.iml" group="SpringBoot" />
