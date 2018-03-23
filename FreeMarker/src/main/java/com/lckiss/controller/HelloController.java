@@ -1,5 +1,6 @@
 package com.lckiss.controller;
 
+import org.slf4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -10,6 +11,7 @@ import java.util.List;
 
 @Controller
 public class HelloController {
+private final static Logger logger=org.slf4j.LoggerFactory.getLogger(HelloController.class);
 
     @RequestMapping("/")
     @ResponseBody
@@ -37,4 +39,14 @@ public class HelloController {
         request.setAttribute("userList",userList);
         return "data";
     }
+
+    //log演示
+    @RequestMapping("/log")
+    @ResponseBody
+    public String log(String name) {
+        logger.info("----this is  a  log4j2 log-----");
+        logger.info("----name is "+name+"--------");
+        return name;
+    }
+
 }
