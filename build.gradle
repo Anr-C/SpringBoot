@@ -27,8 +27,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile("org.springframework.boot:spring-boot-starter-web")
-
+    compile ("org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE")
     //jsp
     compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
 
@@ -38,7 +37,6 @@ dependencies {
 
     //mysql驱动
     compile 'mysql:mysql-connector-java'
-
 }
 
 bootJar {

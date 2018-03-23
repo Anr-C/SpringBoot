@@ -1,6 +1,10 @@
 package com.lckiss.controller;
 
+import com.lckiss.mapper.master.MasterMapper;
+import com.lckiss.mapper.slave.SlaveAlphaMapper;
+import com.lckiss.model.User;
 import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -47,6 +51,29 @@ private final static Logger logger=org.slf4j.LoggerFactory.getLogger(HelloContro
         logger.info("----this is  a  log4j2 log-----");
         logger.info("----name is "+name+"--------");
         return name;
+    }
+
+    //访问多数据源中的第一个数据源
+    @Autowired
+    private MasterMapper masterMapper;
+
+    @RequestMapping("/master")
+    @ResponseBody
+    public String master(int id) {
+        User user= masterMapper.selectUserById(id);
+        return user.getName();
+    }
+
+
+    //访问多数据源中的第二个数据源
+    @Autowired
+    private SlaveAlphaMapper slaveAlphaMapper;
+
+    @RequestMapping("/slaveAlpha")
+    @ResponseBody
+    public String slaveAlpha(int id) {
+       User user= slaveAlphaMapper.selectUserById(id);
+        return user.getName();
     }
 
 }
