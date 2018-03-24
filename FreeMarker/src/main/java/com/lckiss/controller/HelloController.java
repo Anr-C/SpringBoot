@@ -1,10 +1,12 @@
 package com.lckiss.controller;
 
+import com.lckiss.AliConfig;
 import com.lckiss.mapper.master.MasterMapper;
 import com.lckiss.mapper.slave.SlaveAlphaMapper;
 import com.lckiss.model.User;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,7 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
+//@EnableScheduling 标记后才支持定时任务
 @Controller
+@EnableScheduling
 public class HelloController {
 private final static Logger logger=org.slf4j.LoggerFactory.getLogger(HelloController.class);
 
@@ -87,4 +91,13 @@ private final static Logger logger=org.slf4j.LoggerFactory.getLogger(HelloContro
     }
 
 
+    //模拟三方参数获取
+    @Autowired
+    private AliConfig aliConfig;
+
+    @RequestMapping("/customConfig")
+    @ResponseBody
+    public String customConfig() {
+        return "customConfig:key "+aliConfig.getKey()+" appid: "+aliConfig.getAppId();
+    }
 }
