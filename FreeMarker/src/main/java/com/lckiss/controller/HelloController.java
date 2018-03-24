@@ -76,4 +76,15 @@ private final static Logger logger=org.slf4j.LoggerFactory.getLogger(HelloContro
         return user.getName();
     }
 
+
+    //登录演示
+    @RequestMapping("/login")
+    @ResponseBody
+    public String login(HttpServletRequest request) {
+        //模拟成功后返回的session
+        request.getSession().setAttribute("name","testUser");
+        return "login success";
+    }
+
+
 }
