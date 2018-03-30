@@ -17,3 +17,12 @@
 * Spring-boot2.0多数据源
 
 详细信息：http://lckiss.com/?p=2999
+
+### release 1.3
+
+- 拦截器
+- 定时器
+- 自定义参数
+- Spring-boot缓存
+
+详细信息：http://lckiss.com/?p=3010
