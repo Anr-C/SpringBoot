@@ -2,14 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="DataSource_main" target="1.8" />
+      <module name="DataSource_test" target="1.8" />
+      <module name="EnCache_main" target="1.8" />
+      <module name="EnCache_test" target="1.8" />
       <module name="FreeMarker_main" target="1.8" />
       <module name="FreeMarker_test" target="1.8" />
+      <module name="Log4j2_main" target="1.8" />
+      <module name="Log4j2_test" target="1.8" />
       <module name="SpringBoot-FreeMarker_main" target="1.8" />
       <module name="SpringBoot-FreeMarker_test" target="1.8" />
       <module name="springboot_main" target="1.8" />
       <module name="SpringBoot_main" target="1.8" />
       <module name="SpringBoot_test" target="1.8" />
       <module name="springboot_test" target="1.8" />
+      <module name="Timer_main" target="1.8" />
+      <module name="Timer_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

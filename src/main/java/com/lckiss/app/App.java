@@ -11,8 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "com/lckiss/controller")
 @MapperScan(basePackages = "com/lckiss/mapper")
-public class App {
 
+public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
