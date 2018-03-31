@@ -4,4 +4,8 @@ include 'EnCache'
 include 'DataSource'
 include 'Log4j2'
 include 'Timer'
+include 'Interceptor'
+include 'CustomConfig'
+include 'Jsp'
+include 'Exception'
 
