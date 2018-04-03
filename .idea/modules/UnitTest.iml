@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":UnitTest" external.linked.project.path="$MODULE_DIR$/../../UnitTest" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="lckiss.com" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../UnitTest">
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTest/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTest/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTest/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

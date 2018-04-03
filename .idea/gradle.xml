@@ -10,13 +10,17 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CustomConfig" />
             <option value="$PROJECT_DIR$/DataSource" />
+            <option value="$PROJECT_DIR$/DataVerify" />
+            <option value="$PROJECT_DIR$/Domain" />
             <option value="$PROJECT_DIR$/EnCache" />
             <option value="$PROJECT_DIR$/Exception" />
             <option value="$PROJECT_DIR$/FreeMarker" />
             <option value="$PROJECT_DIR$/Interceptor" />
             <option value="$PROJECT_DIR$/Jsp" />
             <option value="$PROJECT_DIR$/Log4j2" />
+            <option value="$PROJECT_DIR$/MultipleEnv" />
             <option value="$PROJECT_DIR$/Timer" />
+            <option value="$PROJECT_DIR$/UnitTest" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

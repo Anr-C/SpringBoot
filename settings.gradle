@@ -8,4 +8,8 @@ include 'Interceptor'
 include 'CustomConfig'
 include 'Jsp'
 include 'Exception'
+include 'MultipleEnv'
+include 'Domain'
+include 'DataVerify'
+include 'UnitTest'
 
