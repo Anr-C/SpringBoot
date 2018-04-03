@@ -34,6 +34,8 @@
 - 数据验证
 - 单元测试
 
+详细信息：http://lckiss.com/?p=3038
+
 ### 模块对应：
 
 * CustomConfig — 自定义properties配置
